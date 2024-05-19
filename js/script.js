@@ -51,7 +51,7 @@ $(window).on("load", function () {
 
   //post slider
   $(".post-slider").slick({
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2300,

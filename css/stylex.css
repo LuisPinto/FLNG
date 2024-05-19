@@ -3864,3 +3864,17 @@ a:hover {
     height: auto; /* Automatically adjust height */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow properties */
 }
+
+h1.text-primary {
+  text-shadow: 3px 6px 2px black;
+}
+
+.text-shadow {
+  text-shadow: 3px 6px 2px black;
+}
+
+
+p.small {
+  font-size: 14px;
+  color: gray;
+}
