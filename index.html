@@ -29,6 +29,7 @@
             <div class="container">
                <a class="navbar-brand" href="index.html">
                <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo.png" alt="Wallet">
+               <h2 class="text-primary text-shadow">FLANINGO </h2>
                </a>
                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
                </button>
@@ -68,7 +69,7 @@
             </div>
             <div class="col-lg-7">
                <div class="ps-lg-5 text-center">
-                  <img loading="lazy" decoding="async" class="image-with-shadow"   src="images/imgs/FLNG00.png" alt="banner image" class="image-with-shadow">
+                  <img loading="lazy" decoding="async" class=""   src="images/imgs/FLNG00.png" alt="banner image" >
                </div>
             </div>
          </div>
@@ -281,10 +282,12 @@
       <!-- Main Script -->
       <script src="js/script.js"></script>
       <script type="text/javascript">
+          
+          
         function copyToClipboard(elem){
           
           
-          var temp = $("<input>");
+         var temp = $("<input>");
           var XXX = $(elem);
           //console.log(elem);
           //console.log(XXX.text());
@@ -292,7 +295,12 @@
           temp.val(XXX.text()).select();
           //temp.val(elem.text()).select();
           document.execCommand("copy");
-          temp.remove();          
+          var CA_string = XXX.text();
+          temp.remove();
+
+          alert(CA_string +" \n copied to clipboard");
+                
+          
         };
 
 
